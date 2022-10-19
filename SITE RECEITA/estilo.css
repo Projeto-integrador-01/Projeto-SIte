@@ -1,0 +1,210 @@
+header{
+	background-color: #555454;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;	
+}
+
+body{
+	background-color: rgb(226, 225, 225);
+}
+
+*{
+	margin:0%;
+	padding:0%;
+	box-sizing: border-box;
+	font-size: "Open Sans";
+}
+
+html{
+	scroll-behavior: smooth;
+	
+}
+	
+nav{
+	width: 100%;
+	position: relative;
+	background: (rgb(44, 0, 0),transparent);
+	text-align: center;
+	
+	
+}
+
+nav ul li{
+	display:inline-block;
+	margin-top: 40px;
+}	
+
+nav ul li a{
+	text-decoration: none;
+	padding: 5px 0;
+	display: inline-block;
+	margin: 15px 10px;
+	color: rgb(255, 255, 255);
+	font-weight: 700;
+	text-transform: uppercase;
+	border-bottom: 3px solid transparent;
+	transition: all 0.25s ease-in-out;
+	font-size: 22px;
+}	
+
+nav ul li:hover{
+	border-bottom: 3px solid #ffffff;	
+}
+
+#logo{
+	display: flex;
+}
+
+.container img{
+	display: flex;
+	margin: 50px 200px 50px 800px;	
+	align-items: center;
+}
+
+footer{
+	padding: 10px;
+	display:grid;
+	grid-template-columns: 16% 68% 16%;
+	background-color:#363636;
+	height:200px;	
+	color:white;
+	font-size:22pt;
+	text-align:center;
+	float: inline-end;
+	text-decoration: none;	
+	align-items: center;
+
+}
+footer a{
+	text-decoration:none;
+	color:white;
+}
+
+/*
+footer{
+	
+	height: 350px;
+
+	font-weight: 700;
+	text-align: center;
+}
+*/
+
+#dois {
+	margin: 22px;
+	margin-bottom: 22px;
+}
+
+#dois p{
+	margin-top: 30px;
+}
+
+div a{
+	color: rgb(255, 255, 255);
+}
+
+.logofooter img{
+	width: 150px;
+	height: 150px;
+	margin-top: 10px;
+}
+
+#fale_conosco{
+	background-color:gray;
+	display:grid;
+	grid-template-columns:50% 50%;
+	padding:20px;
+}
+
+#formulario input{
+	width:95%;
+	border: 1px solid #999;
+	border-radius:10px;
+	margin-bottom:10px;
+	height:30px;
+	font-family:calibri;
+	font-size:20px;
+	background-color:gainsboro;
+}	
+
+
+.botao{
+	color:white;
+	font-family:calibri;
+	font-size:16pt;
+	text-decoration:none;
+	padding:10px 75px;
+	background-color:black;
+	border-radius:10px;
+}
+
+.botao:hover{
+	background-color:#00BFFF;
+	transition:0.3s;
+ 
+
+
+}
+#rece{
+	display:grid;
+	grid-template-columns:49% 49%;
+}
+
+#rece img{
+	padding:18px;
+	margin-left:40px; 
+	border-radius:32px;
+}
+	
+	
+.feijoada{
+	padding:18px;
+	margin-left:40px; 
+	
+	
+}
+.feijoada h2{
+	color:rgb(0, 0, 0);
+}	
+.feijoada p{
+	color:white;
+	font-size:15pt;
+	
+}
+.feijoada a{
+	text-decoration:none;
+	
+}
+#peças{
+	display:grid;
+	grid-template-columns:25% 25% 25% 25%;
+}
+#peças img{
+	height:300px;
+	padding:18px;
+	margin-left:40px; 
+	border-radius:32px;
+}
+.PC1{
+	background-color:#363636;
+	border-radius:20px;
+	text-align:center;
+	padding:50px;
+	margin-left:55px;
+	width:203px;
+	height:250px;
+}
+.PC1 a{
+	text-decoration:none;
+}
+
+.PC1 p{
+	color:white;
+	font-size:15pt;
+}
+
+.PC1 h2{
+	color:white;
+}	
